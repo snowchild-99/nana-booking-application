@@ -86,6 +86,7 @@ func checkTicketInput(bookedTicket int, remainingTickets int) bool {
 		return false
 	}
 	return true
+
 }
 
 func acknowledegBookingStatus(isSuccess bool) {
